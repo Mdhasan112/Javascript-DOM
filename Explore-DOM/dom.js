@@ -2,6 +2,7 @@
 // console.log(document.body);
 // document.getElementsByTagName('h3');
 document.body.style.backgroundColor="lightGray";
+
 var author = document.getElementsByClassName('author');
 for(i = 0; i < author.length; i++){
     var element = author[i];
