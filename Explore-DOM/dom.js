@@ -1,2 +1,17 @@
-document.getElementsByTagName('h3');
-console.log(document.body)
+// document.getElementById('hk').style.fontSize= '30px';
+// console.log(document.body);
+// document.getElementsByTagName('h3');
+document.body.style.backgroundColor="lightGray";
+var author = document.getElementsByClassName('author');
+for(i = 0; i < author.length; i++){
+    var element = author[i];
+    console.log(element.innerHTML)
+    element.innerHTML = 'lekhok-'+ [i + 1];
+    var color = element.style.color="red"
+}
+
+var queary = document.querySelectorAll('.special h3')
+for(i = 0; i < queary.length; i++){
+    var element = queary[i];
+    element.innerHTML = 'hasan-' + [i + 1];
+}
